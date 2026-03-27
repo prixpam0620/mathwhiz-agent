@@ -1,0 +1,17 @@
+{
+  "name": "add_numbers",
+  "description": "Adds two numbers together when the user asks for a calculation.",
+  "parameters": {
+    "num1": {
+      "description": "The first number ",
+      "required": "True",
+      "type": "number"
+    },
+    "num2": {
+      "description": "The second number",
+      "required": "True",
+      "type": "number"
+    }
+  },
+  "requireConfirmation": "ENABLED"
+}
